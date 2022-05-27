@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+#app{
+    display: flex;
+    min-height: 100vh;
+    background-color: khaki;
+    justify-content: center;
+    align-items: center;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    width: 75vw;
+    height: 50vh;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid black;
+}
+
+#theCount{
+    font-size: xx-large;
+}
+
+#buttons{
+    display: flex;
+}
+
+button{
+    background-color: inherit;
+    padding: 2%;
+    border-radius: 10%;
+}
